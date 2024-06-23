@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Mathematics for Machine Learning (Summer B '24)
+title: Mathematics for Machine Learning
 tagline: Columbia University, COMS4995 Summer B 2024
 description: Mathematics for Machine Learning
 author: Samuel Deng
@@ -23,7 +23,7 @@ exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.8.2
-color_scheme: light
+color_scheme: colors
 search_enabled: true
 heading_anchors: true
 permalink: pretty
