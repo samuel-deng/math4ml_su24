@@ -17,7 +17,7 @@ title: Mathematics for Machine Learning (Summer B '24)
 tagline: Columbia University, COMS4995 Summer B 2024
 description: Mathematics for Machine Learning
 author: Samuel Deng
-baseurl: '/math4ml-su24' # the subpath of your site, e.g. /blog
+baseurl: '/math4ml_su24' # the subpath of your site, e.g. /blog
 url: 'https://samuel-deng.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
