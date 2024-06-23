@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Just the Class
-tagline: A Jekyll template for course websites
-description: A modern, highly customizable, responsive Jekyll template for course websites
-author: Kevin Lin
-baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
-url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
-exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
+title: Mathematics for Machine Learning (Summer B '24)
+tagline: Columbia University, COMS4995 Summer B 2024
+description: Mathematics for Machine Learning
+author: Samuel Deng
+baseurl: '/math4ml-su24' # the subpath of your site, e.g. /blog
+url: 'https://samuel-deng.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
 
 # Theme settings
 remote_theme: just-the-docs/just-the-docs@v0.8.2
