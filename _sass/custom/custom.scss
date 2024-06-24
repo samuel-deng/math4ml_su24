@@ -41,6 +41,7 @@ summary {
 
   dt {
     font-weight: 700;
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-align: start;
 
     &::after {
@@ -50,9 +51,16 @@ summary {
 
   dd {
     font-weight: normal;
+    font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     + dt {
       margin-top: 1em;
     }
   }
 }
+
+a:link, a:visited { color: #d99a11;}
+a:hover, a:focus { color: #ab7707; font-weight: normal; text-decoration: underline dotted;}
+.downloads a:hover, .downloads a:focus { font-weight: normal; }
+
+h1 a:hover, a:focus { font-weight: bold; }
