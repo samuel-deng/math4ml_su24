@@ -34,8 +34,12 @@ know of any additional resources that you think would be helpful for the class, 
 
 ### LaTeX
 - [Overleaf](https://www.overleaf.com), the Google Docs for LaTeX. Can be used for all the assignments in this class.
-- [Overleaf's guide to learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Display_math_mode)
+- Overleaf's guide to [learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes#Display_math_mode)
+- David Xiao's [Beginner's guide to LaTeX](https://www.cs.princeton.edu/courses/archive/spr10/cos433/Latex/latex-guide.pdf)
+- Eddie Kohler's [LaTeX usage notes](https://www.read.seas.harvard.edu/~kohler/latex.html). These might be worth a browse to rectify common stylistic problems with using LaTeX.
 - [Detexify](https://detexify.kirelabs.org/classify.html), an applet to get the LaTeX command for any handwritten symbol.
+
+In general, Googling an issue you're having with LaTeX usually provides a plethora of solutions.
 
 ### Linear Algebra Prerequisites
 If you need to refresh any linear algebra, these may be good resources.
