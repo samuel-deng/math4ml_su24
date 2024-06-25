@@ -87,7 +87,7 @@ This course will be evaluated on the basis of five weekly problem sets and a fin
 
 To give you practice and reinforce the concepts learned in class, there will be five weekly problem sets. The problem sets will usually have about four to five theoretical problems with an additional coding exercise to reinforce the concepts and develop basic fluency in machine learning packages such as `numpy`, `pandas`, and `sklearn`. The problems will be proof-based, but we will aim to develop your mathematical maturity in reading and writing proofs throughout the course.
 
-Each problem set will be released on Thursdays and will cover the material taught in lecture on Monday and Wednesday that week. They will be **due the following Thursday at 11:59pm ET.** All problem sets should be submitted to [Gradescope](https://www.gradescope.com/courses/801399) as a PDF file, generated from LaTeX using the provided template files. Solutions will be released on Mondays. Detailed homework submission instructions can be found in [HW Submission]({{ site.baseurl }}{% link homework.md %})
+Each problem set will be released on Mondays and will cover the material taught in lecture on Monday and Wednesday that week. They will be **due the following Thursday at 11:59pm ET.** All problem sets should be submitted to [Gradescope](https://www.gradescope.com/courses/801399) as a PDF file, generated from LaTeX using the provided template files. Solutions will be released on Mondays. Detailed homework submission instructions can be found in [HW Submission]({{ site.baseurl }}{% link homework.md %})
 
 This course is intended to prepare students for further courses in machine learning, which all require  typesetting (at least at Columbia). LaTeX is also a useful skill to have for future courses or research, and LaTeX documents just look clean. **Because of this, we will require that your assignments be typed in LaTeX to give you practice**; the problem sets in COMS 4771 are hard enough without needing to wrestle LaTeX typesetting issues! Resources and a submission template will be provided to learn LaTeX and gently onboard students. 
 
@@ -141,17 +141,17 @@ This is a course outline for a six week summer version. Because of the accelerat
 
 *This is a preliminary outline of the class topics! For an updated outline and corresponding lecture materials, see [Course Content]({{ site.baseurl }}{% link content.md %}).*
 
-- **Linear Algebra**
+### Linear Algebra
   - Week 1-1: Introduce the basic machine learning problem: least squares regression. Review of basic linear algebra (vectors, matrices, linear independence, span, and bases).
   - Week 1-2: Subspaces, orthogonality, norms, projections. Relationship of least squares to projection.
   - Week 2-1: Singular value decomposition, matrix approximation, pseudoinverse. Perspective on least squares with SVD.
   - Week 2-2: Eigenvalues, eigenvectors, positive definite/semidefinite matrices, and the spectral theorem. Principal components analysis and facial recognition.
-- **Calculus and Optimization.**
+### Calculus and Optimization
   - Week 3-1: Vector calculus (derivatives, gradients, matrix calculus). Least squares as an optimization problem. Introduce the machine learning workhorse: gradient descent.
   - Week 3-2: Linearization and Taylor series. Proof for the convergence of gradient descent.
   - Week 4-1: Basics of continuous optimization: constrained optimization and Lagrange multipliers. Least squares with regularization.
   - Week 4-2: Convex optimization. Solving least squares using gradient descent.
-- **Probability and Statistics.**
+### Probability and Statistics
   - Week 5-1: Probability fundamentals (random variables, expected value, variance, law of large numbers, central limit theorem). Stochastic gradient descent.
   - Week 5-2: Statistics fundamentals (basic distributions, bias, variance, sufficient statistics). Least squares and the Gauss-Markov Theorem.
   - Week 6-1: Statistics fundamentals continued (conjugacy, exponential family). Gaussian and multivariate Gaussian distribution. Model of Gaussian errors, maximum likelihood estimation and least squares.

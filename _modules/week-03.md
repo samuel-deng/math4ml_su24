@@ -1,12 +1,12 @@
 ---
-title: Linear Algebra I (matrices, vectors, bases, and orthogonality)
+title: Calculus and Optimization I (differentiation and Taylor Series)
 ---
-July 1
-: [Lecture: Vectors, matrices, and least squares](#)
+July 15
+: [Lecture: Vector and matrix differential calculus](#)
   : [optional reading](#), [optional reading](#), [optional reading](#)
 
-July 3
-: [Lecture: Subspaces, bases, and orthogonality](#)
+July 17
+: [Lecture: Taylor Series and linearization](#)
   : [optional reading](#), [optional reading](#), [optional reading](#)
 
 Connections to LS

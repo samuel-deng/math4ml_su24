@@ -1,12 +1,12 @@
 ---
-title: Linear Algebra II (singular value decomposition and eigendecomposition)
+title: Probability and Statistics II (Gaussian distribution and )
 ---
-July 8
-: [Lecture: Singular value decomposition](#)
+Aug 5
+: [Lecture: Maximum likelihood estimation, conjugacy, and the Gaussian](#)
   : [optional reading](#), [optional reading](#), [optional reading](#)
 
-July 10
-: [Lecture: Eigendecomposition, positive semidefinite matrices, and PCA](#)
+Aug 7
+: [Lecture: Multivariate Gaussian and course overview](#)
   : [optional reading](#), [optional reading](#), [optional reading](#)
 
 Connections to LS

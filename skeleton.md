@@ -18,4 +18,4 @@ eye view of the course's main ideas, definitions, and results.
 
 ---
 
-## Lecture 1 (Mon 07/01/24)
+## Lecture 1 (Mon July 1, 2024)
