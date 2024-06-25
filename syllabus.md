@@ -80,6 +80,9 @@ Though this class assumes that you’ve taken courses in each of the following a
 - *Introduction to Probability* by Joseph K. Blitzstein and Jessica Hwang.
 - *Probability and Statistics for Engineers and Scientists* by Ronald E. Wadpole.
 
+Additional resources can be found in the Resources section of the [Course Content]({{ site.baseurl }}{% link content.md %})
+page, to be updated as the class progresses.
+
 ## Assignments and Grading Policy
 This course will be evaluated on the basis of five weekly problem sets and a final project. There are no exams.
 
