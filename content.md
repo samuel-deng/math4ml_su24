@@ -22,7 +22,11 @@ far, see the [Course Skeleton]({{ site.baseurl }}{% link skeleton.md %}).
 - All readings on the right column are **optional**, but reading (a subset of) these materials before each lecture might help digesting the content during lecture.
 - Problem sets will be posted here, as well as their solutions.
 
-This is a tentative schedule and is subject to change. Readings, slides, and assignments will be posted as the class goes on.
+This is a tentative schedule and is subject to change. Readings, slides, and assignments will be posted as the class goes on. 
+
+In the readings, *MML* refers to [*Mathematics for Machine Learning*](https://mml-book.github.io/) by Marc Peter Deisenroth, A. Aldo Faisal, and Cheng 
+Soon Ong. *VMLS* refers to [*Introduction to Applied Linear Algebra - Vectors, Matrices, and Least Squares*](https://web.stanford.edu/~boyd/vmls/) by Stephen Boyd
+and Lieven Vandenberghe. 
 
 {% for module in site.modules %}
 {{ module }}
