@@ -2,7 +2,7 @@
 title: Linear Algebra I (matrices, vectors, bases, and orthogonality)
 ---
 Jun 26
-: [PS 0]({{ site.baseurl }}/assets/files/ps0.pdf) released
+: [PS 0]({{ site.baseurl }}/assets/files/ps0.pdf) released + [Ed](https://edstem.org/us/courses/60529/discussion/) Announcement
   : [ps0_template.zip]({{ site.baseurl }}/assets/files/ps0_template.zip)
 
 Jul 1
