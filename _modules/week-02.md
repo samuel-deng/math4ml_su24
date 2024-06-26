@@ -1,13 +1,11 @@
 ---
 title: Linear Algebra II (singular value decomposition and eigendecomposition)
 ---
-July 8
+Jul 8
 : Lecture: Singular value decomposition
-  : [optional reading](#), [optional reading](#), [optional reading](#)
 
-July 10
+Jul 10
 : Lecture: Eigendecomposition, positive semidefinite matrices, and PCA
-  : [optional reading](#), [optional reading](#), [optional reading](#)
 
 Connections to LS
 : *To be updated!*
