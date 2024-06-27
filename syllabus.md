@@ -40,7 +40,7 @@ This is a course with a loose story. The course is structured around two main id
 - **Office Hours:** See the [Calendar]({{ site.baseurl }}{% link calendar.md %}) and watch for announcements on Ed for any changes.
   - Sam: Mondays 3pm - 5pm ET; Wednesdays 3pm - 5pm ET, both in DSI 417 in Mudd. Zoom will be available on Wednesday office hours. 
     - Please come to my (Sam's) office hours once, if only to introduce yourself! If you can't make my office hours, please email me to setup another time to meet.
-  - Chris: *TBD.*
+  - Chris: Wednesdays 7pm - 8:30pm; Thursdays 7pm - 8:30pm ET, both in the CS TA room on the 1st floor of Mudd.
 
 ## Prerequisites
 
@@ -98,6 +98,11 @@ This course is intended to prepare students for further courses in machine learn
 
 *Because of the accelerated summer schedule, less focus will be put on the coding aspect of the course as to not overwhelm students, particularly in the pilot version.*
 
+Students are all expected to adhere to the Academic Honesty policy of the Computer Science Department; this policy can be found in full [here](https://www.cs.columbia.edu/academic/academic-honesty/). Please contact the instructor with any questions.
+
+### References Policy
+You may consult certain outside materials, specifically lecture notes and videos of other classes, any textbooks, and research papers. You may not consult any other materials, including solved homework problems for this or any other class. For all outside materials used, you must provide a detailed acknowledgement of the precise materials used, in the appropriate homework problem. Whether or not you consult outside materials, you must always write up your solutions in your own words. If your homework writeup resembles any outside source in a way which suggests that you have violated the above policy, you may be suspected of academic dishonesty.
+
 ### Late Policy
 Every student has a total of 4 late days for the course. Late time is rounded *up* to the nearest day and is measured from submission time on Gradescope. **No homework will be accepted after 11:59 PM ET on the Sunday after the initial due date** (3 late days' time). This rule is here to allow us to post solutions to each of the problem sets in a timely manner. No further late days will be given for the course, so please plan accordingly.
 
@@ -129,11 +134,11 @@ The final project of this course will be to *attempt* to read a research paper i
 There are three parts to this project:
 
 1. **Choose a paper.** *Within the first week.* We will provide a list of machine learning papers from recent conferences in machine learning that represent some topics from the cutting edge of current research. Your job is to just peruse the list, browse the abstracts, and choose a paper that seems interesting to you based on its title and abstract alone.
-2. **Beginning of course evaluation.** *Before the second week.* You will attempt to read the whole paper. Research papers can be intimidating if you’ve never read one before (and even if you’ve read hundreds!) so we will provide some guidance on how to read a scientific paper in machine learning. Then, you will provide a critical evaluation of the paper to the best of your current ability based on a template we will supply. This will be graded on completion and effort.
-3. **End of course evaluation.** *Final week.* At the end of the course, you will read the paper again. You will fill out a similar critical evaluation of the paper, per the same template.
+2. **Beginning of course evaluation.** *Before the second week.* You will attempt to read the whole paper. Research papers can be intimidating if you’ve never read one before (and even if you’ve read hundreds!) so we will provide some guidance on how to read a scientific paper in machine learning. Then, you will provide a critical evaluation of the paper to the best of your current ability based on a template we will supply. This will be graded on completion and effort -- we emphasize that it does *not* matter how much you actually know or understand from the paper, just that you put a concerted effort into completing the evaluation and grappling with the paper.
+3. **End of course evaluation.** *Final week.* At the end of the course, you will read the paper again. You will fill out a similar critical evaluation of the paper, per the same template. Again, you will be graded not on your understanding (though we hope it's improved the second time around!) but, rather, your concerted effort in writing an evaluation that shows that you've read and grappled with the paper to the best of *your* ability.
 
 
-This project will be graded on the clarity and quality of the evaluation, but we stress that we will not focus on how much you “get” the paper. The emphasis of this project is on your own growth — hopefully, you’ll find that by the end of the course your chosen paper isn’t quite as perplexing as it may have seemed in the beginning.
+This project will be graded on the clarity and quality of the evaluation, but we stress that we will not focus on how much you “get” the paper. As long as you do the work of grappling with the paper and filling out the evaluation to the best of *your* ability, regardless of your understanding, you should be fine, grade-wise. The emphasis of this project is on your own growth — hopefully, you’ll find that by the end of the course your chosen paper isn’t quite as perplexing as it may have seemed in the beginning.
 
 ## Course Outline (Summer Schedule)
 The course will be split into three main parts, for each “pillar” of mathematics that underlies machine learning. Throughout the course, we will aim to alternate between theory and application. In particular, the course will focus on developing two concepts that are central to machine learning: *least squares regression* and *gradient descent*. By the end of the course, the hope is that you have a varied and nuanced understanding of each of these concepts as well as scaffolding to "hang your hat on" for each of the disparate mathematical ideas we've learned/reviewed throughout the course. Other applications relevant to machine learning will also be introduced throughout.
@@ -161,7 +166,7 @@ This is a course outline for a six week summer version. Because of the accelerat
   - Week 6-2: Multivariate Gaussian. Gaussian mixture models and density estimation. Review of course.
 
 ## Collaboration Policy
-Learning is best done in collaboration with peers. To this end, you will be allowed to collaborate with other students on the problem sets in groups **up to three students (including yourself)**. All collaborators must write the names and UNIs of their group at the top of each problem set (the template will have a space for you to do so). All collaborators must also *type up everything in their own words*. You are free to discuss, whiteboard, and brainstorm with your collaborators. However, when it comes to sitting down and solving the actual problem, you must do it yourself, away from your collaborators.
+Learning is best done in collaboration with peers. To this end, you will be allowed to collaborate with other students on the problem sets in groups **up to three students (including yourself)**. All collaborators must write the names and UNIs of their group at the top of each problem set (the template will have a space for you to do so). All collaborators must also *type up everything in their own words*. You are free to discuss, whiteboard, and brainstorm with your collaborators. However, when it comes to sitting down and solving the actual problem, you must do it yourself, away from your collaborators. If your homework writeup resembles that of another student in a way which suggests that you have violated the above policy, you may be suspected of academic dishonesty.
 
 For the final project, only individual work is allowed. The final project is meant to track your own individual growth in mathematical maturity (which may have improved from collaborating with other students!), so you should aim to do all parts of it yourself.
 
