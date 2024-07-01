@@ -19,14 +19,19 @@ and probability and statistics. All class files will be available here. For a mo
 far, see the [Course Skeleton]({{ site.baseurl }}{% link skeleton.md %}).
 
 - Lecture slides can be found by clicking on the lecture title for the appropriate day.
-- All readings on the right column are **optional**, but reading (a subset of) these materials before each lecture might help digesting the content during lecture.
+- All the materials and reading on the right column is **optional**, but reading (a subset of) these materials before each lecture might help digesting the content during lecture.
 - Problem sets will be posted here, as well as their solutions.
 
 This is a tentative schedule and is subject to change. Readings, slides, and assignments will be posted as the class goes on. 
 
-In the readings, *MML* refers to [*Mathematics for Machine Learning*](https://mml-book.github.io/) by Marc Peter Deisenroth, A. Aldo Faisal, and Cheng 
+**Optional readings.** *MML* refers to [*Mathematics for Machine Learning*](https://mml-book.github.io/) by Marc Peter Deisenroth, A. Aldo Faisal, and Cheng 
 Soon Ong. *VMLS* refers to [*Introduction to Applied Linear Algebra - Vectors, Matrices, and Least Squares*](https://web.stanford.edu/~boyd/vmls/) by Stephen Boyd
-and Lieven Vandenberghe. 
+and Lieven Vandenberghe.
+
+**Story of the course.** As the lectures go on, the goal will be to develop two main ideas from machine learning: *least squares regression (LS)* and
+*gradient descent (GD)*. During each lecture, we will build these ideas with the mathematical tools from that lecture; at the same time,
+we'll gradually develop a "picture" of LS and GD as the course goes on. An evolving 3D rendering of each "picture" will be linked
+in each module below.
 
 {% for module in site.modules %}
 {{ module }}

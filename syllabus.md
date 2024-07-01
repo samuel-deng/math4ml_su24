@@ -76,8 +76,9 @@ Though this class assumes that you’ve taken courses in each of the following a
 
 ### Probability Theory and Statistics
 - [*Introduction to Probability for Data Science*](https://probability4datascience.com/) by Stanley H. Chan
+- [*Introduction to Probability for Computing*](http://www.cs.cmu.edu/~harchol/Probability/book.html) by Mor Harchol-Balter
+- [*Introduction to Probability*](https://projects.iq.harvard.edu/stat110/home) by Joseph K. Blitzstein and Jessica Hwang.
 - *A First Course in Probability*  by Sheldon Ross.
-- *Introduction to Probability* by Joseph K. Blitzstein and Jessica Hwang.
 - *Probability and Statistics for Engineers and Scientists* by Ronald E. Wadpole.
 
 Additional resources can be found in the Resources section of the [Course Content]({{ site.baseurl }}{% link content.md %})
@@ -88,9 +89,9 @@ This course will be evaluated on the basis of five weekly problem sets and a fin
 
 ### Problem Sets
 
-To give you practice and reinforce the concepts learned in class, there will be five weekly problem sets. The problem sets will usually have about four to five theoretical problems with an additional coding exercise to reinforce the concepts and develop basic fluency in machine learning packages such as `numpy`, `pandas`, and `sklearn`. The problems will be proof-based, but we will aim to develop your mathematical maturity in reading and writing proofs throughout the course.
+To give you practice and reinforce the concepts learned in class, there will be five weekly problem sets. The problem sets will usually have about four to five theoretical problems with an additional coding exercise to reinforce the concepts and develop basic fluency in machine learning packages such as `numpy`, `pandas`, and `sklearn`. The problems will be proof-based, but we will aim to develop your mathematical maturity in reading and writing proofs throughout the course. 
 
-Each problem set will be released on Mondays and will cover the material taught in lecture on Monday and Wednesday that week. They will be **due the following Thursday at 11:59pm ET.** All problem sets should be submitted to [Gradescope](https://www.gradescope.com/courses/801399) as a PDF file, generated from LaTeX using the provided template files. Solutions will be released on Mondays. Detailed homework submission instructions can be found in [HW Submission]({{ site.baseurl }}{% link homework.md %})
+Each problem set will be released on Tuesdays and will cover the material taught in lecture on Monday and Wednesday that week. They will be **due the following Thursday at 11:59pm ET.** All problem sets should be submitted to [Gradescope](https://www.gradescope.com/courses/801399) as a PDF file, generated from LaTeX using the provided template files. Solutions will be released on Mondays. Detailed homework submission instructions can be found in [HW Submission]({{ site.baseurl }}{% link homework.md %})
 
 This course is intended to prepare students for further courses in machine learning, which all require  typesetting (at least at Columbia). LaTeX is also a useful skill to have for future courses or research, and LaTeX documents just look clean. **Because of this, we will require that your assignments be typed in LaTeX to give you practice**; the problem sets in COMS 4771 are hard enough without needing to wrestle LaTeX typesetting issues! Resources and a submission template will be provided to learn LaTeX and gently onboard students. 
 
@@ -101,6 +102,9 @@ This course is intended to prepare students for further courses in machine learn
 Students are all expected to adhere to the Academic Honesty policy of the Computer Science Department; this policy can be found in full [here](https://www.cs.columbia.edu/academic/academic-honesty/). Please contact the instructor with any questions.
 
 ### References Policy
+Any result that we've established in the class lecture notes can be referenced and used without proof for any problem on the problem sets. In order to use a result from class,
+cite the lecture that the result was from.
+
 You may consult certain outside materials, specifically lecture notes and videos of other classes, any textbooks, and research papers. You may not consult any other materials, including solved homework problems for this or any other class. For all outside materials used, you must provide a detailed acknowledgement of the precise materials used, in the appropriate homework problem. Whether or not you consult outside materials, you must always write up your solutions in your own words. If your homework writeup resembles any outside source in a way which suggests that you have violated the above policy, you may be suspected of academic dishonesty.
 
 ### Late Policy
