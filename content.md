@@ -33,6 +33,11 @@ and Lieven Vandenberghe.
 we'll gradually develop a "picture" of LS and GD as the course goes on. An evolving 3D rendering of each "picture" will be linked
 in each module below.
 
+**Lecture pace.** It's really easy, in my experience, to get lost in a math lecture when lots of derivations or proofs are involved. At the
+same time, though, it can often be intimidating to speak up for fear of asking a "dumb question" (no such thing!). To this end, during
+every lecture, I'll have a fully anonymous interactive poll to keep an eye on how people are feeling during lecture and I'll check it intermittently,
+especially during proofs. When prompted to regsiter, just click "Skip for now." [The poll link is here.](PollEv.com​/samdeng)
+
 {% for module in site.modules %}
 {{ module }}
 {% endfor %}
