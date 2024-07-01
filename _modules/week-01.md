@@ -6,7 +6,7 @@ Jun 26
   : [ps0_template.zip]({{ site.baseurl }}/assets/files/ps0_template.zip)
 
 Jul 1
-: [Lecture: Vectors, matrices, and least squares]({{ site.baseurl }}/assets/slides/1.1_linalgandols_beforeclass.pdf)
+: [Lecture: Vectors, matrices, and least squares]({{ site.baseurl }}/assets/slides/1.1_linalgandols.pdf)
   : [MML 2.1 - 2.8, 3.1 - 3.3](https://mml-book.github.io/book/mml-book.pdf), [VMLS 1.1-1.5, 2.1-2.3, 3.1-3.4, 5.1, 5.2, 6.1-6.4, 12.1-12.4](https://web.stanford.edu/~boyd/vmls/vmls.pdf), [Regression (d=2)]({{ site.baseurl }}/assets/figs/2d_regression.html)
 
 Jul 3
