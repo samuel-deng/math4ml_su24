@@ -1,5 +1,5 @@
 ---
-title: Probability and Statistics II (Gaussian distribution and )
+title: Probability and Statistics II (Maximum likelihood and Gaussian distribution)
 ---
 Aug 5
 : Lecture: Maximum likelihood estimation, conjugacy, and the Gaussian
