@@ -108,7 +108,8 @@ cite the lecture that the result was from.
 You may consult certain outside materials, specifically lecture notes and videos of other classes, any textbooks, and research papers. You may not consult any other materials, including solved homework problems for this or any other class. For all outside materials used, you must provide a detailed acknowledgement of the precise materials used, in the appropriate homework problem. Whether or not you consult outside materials, you must always write up your solutions in your own words. If your homework writeup resembles any outside source in a way which suggests that you have violated the above policy, you may be suspected of academic dishonesty.
 
 ### Late Policy
-Every student has a total of 4 late days for the course. Late time is rounded *up* to the nearest day and is measured from submission time on Gradescope. **No homework will be accepted after 11:59 PM ET on the Sunday after the initial due date** (3 late days' time). This rule is here to allow us to post solutions to each of the problem sets in a timely manner. No further late days will be given for the course, so please plan accordingly.
+Every student has a total of 6 late days for the course. Late time is rounded *up* to the nearest day and is measured from submission time on Gradescope. **No homework will be accepted after 11:59 PM ET on the Sunday after the initial due date** (3 late days' time). This rule is here to allow us to post solutions to each of the problem sets in a timely manner. No further late days will be given for the course, so please plan accordingly.
+Late days may also be used for the course project.
 
  If you need an **emergency** exception to the late work policy, please email me before the due date with your reason(s) and a new proposed due date. I'm happy to discuss accommodations. 
 
@@ -132,7 +133,7 @@ with the following grade cutoffs:
 - C-: 70.0 - 72.9%
 - D: 60.0 - 69.9%
 
-### Final Project
+### Course Project
 The project of this course will be to *attempt* to read a research paper in machine learning. Emphasis on *attempt*: there is no expectation that you will understand every single detail in the paper. However, you might be pleasantly surprised that you understand a bit more than you would’ve at the beginning of the course just by strengthening your mathematical foundations.
 
 There are three parts to this project:

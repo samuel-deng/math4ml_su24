@@ -67,7 +67,7 @@ up to you; just make sure that the document is neat and your name and UNI are on
 
 **Length:** Your evaluation should be 1-2 pages in length total. If you go a bit over 2 pages, that's fine.
 
-**Due:** This report is due Monday, July 8 11:59 PM ET on Gradescope.
+**Due:** This report is due Monday, July 8 11:59 PM ET on Gradescope. Late days may be used on this assignment.
 
 In your document, answer each of the prompts below with a paragraph. 
 

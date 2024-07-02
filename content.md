@@ -33,6 +33,10 @@ and Lieven Vandenberghe.
 we'll gradually develop a "picture" of LS and GD as the course goes on. An evolving 3D rendering of each "picture" will be linked
 in each module below.
 
+**Problem sets.** The problem sets will usually look relatively long, but much of it is exposition -- the problems in this course are
+mostly structured to guide you through the discovery or derivation of some result or perspective on a concept. As such, the problem
+sets serve the double purpose of some "required reading" interspersed with problems for you to fill in the gaps.
+
 **Lecture pace.** It's really easy, in my experience, to get lost in a math lecture when lots of derivations or proofs are involved. At the
 same time, though, it can often be intimidating to speak up for fear of asking a "dumb question" (no such thing!). To this end, during
 every lecture, I'll have a fully anonymous interactive poll to keep an eye on how people are feeling during lecture and I'll check it intermittently,
