@@ -7,8 +7,9 @@ description: Homework submission instructions.
 
 Submission for all the problem sets is handled through [Gradescope](https://www.gradescope.com/courses/801399). Each 
 problem set should have about four to five written problems and one programming problem. Each problem set will be
-released with a template file named `ps#_template.zip` and a Jupyter notebook file named `ps#.ipynb`. If additional files
-are needed, that will be indicated on the problem set.
+released with a template file named `ps#_template.zip` and a Jupyter notebook file named `ps#.ipynb`. We'll also
+upload the source code for the LaTeX of the problem set PDF in a file titled `ps#_tex.zip`, in case you'd like to
+refer to the source for the problem set. If additional files are needed, that will be indicated on the problem set.
 
 Problem sets will be made available in [Course Content]({{ site.baseurl }}{% link content.md %}) and announced on Ed. Per
 the [Syllabus]({{ site.baseurl }}{% link syllabus.md %}), each student has 6 late days total throughout the summer session,
