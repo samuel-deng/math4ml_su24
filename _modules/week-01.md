@@ -11,7 +11,7 @@ Jul 1
 
 Jul 2
 : [PS 1]({{ site.baseurl }}/assets/files/ps1.pdf) released, due July 11, 11:59 PM ET
-  : [ps1.pdf]({{ site.baseurl }}/assets/files/ps1.pdf), [ps1_template.zip]({{ site.baseurl }}/assets/files/ps1_template.zip), [ps1.ipynb]({{ site.baseurl }}/assets/files/ps1.ipynb)
+  : [ps1.pdf]({{ site.baseurl }}/assets/files/ps1.pdf), [ps1_template.zip]({{ site.baseurl }}/assets/files/ps1_template.zip), [ps1.ipynb]({{ site.baseurl }}/assets/files/ps1.ipynb), [ps1_template.zip]({{ site.baseurl }}/assets/files/ps1_template.zip)
 : [Paper reading project]({{ site.baseurl }}{% link project.md %}) released. Evaluation due July 8 11:59 PM ET 
 
 Jul 3
