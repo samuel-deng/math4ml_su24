@@ -10,8 +10,8 @@ problem set should have about four to five written problems and one programming 
 released with a template file named `ps#_template.zip` and a Jupyter notebook file named `ps#.ipynb`. If additional files
 are needed, that will be indicated on the problem set.
 
-Problem sets will be made available in [Course Content]({{ site.baseurl }}{% link content.md %}) and annonced on Ed. Per
-the [Syllabus]({{ site.baseurl }}{% link syllabus.md %}), each student has 4 late days total throughout the summer session,
+Problem sets will be made available in [Course Content]({{ site.baseurl }}{% link content.md %}) and announced on Ed. Per
+the [Syllabus]({{ site.baseurl }}{% link syllabus.md %}), each student has 6 late days total throughout the summer session,
 and **no homework will be accepted after 11:59 PM ET on the Sunday after the initial due date** (3 late days' time).
 
 ## Written Part

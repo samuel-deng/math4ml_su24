@@ -15,7 +15,7 @@ Jul 2
 : [Paper reading project]({{ site.baseurl }}{% link project.md %}) released. Evaluation due July 8 11:59 PM ET 
 
 Jul 3
-: Lecture: Subspaces, bases, and orthogonality
+: [Lecture: Subspaces, bases, and orthogonality]({{ site.baseurl }}/assets/slides/1.2_orthogonality.pdf)
   : [MML 2.1 - 2.8, 3.1 - 3.3](https://mml-book.github.io/book/mml-book.pdf), [VMLS 1.1-1.5, 2.1-2.3, 3.1-3.4, 5.1, 5.2, 6.1-6.4, 12.1-12.4](https://web.stanford.edu/~boyd/vmls/vmls.pdf), [Alternate basis]({{ site.baseurl }}/assets/figs/basis.html), [3Blue1Brown video on bases](https://www.youtube.com/watch?v=k7RM-ot2NWY), [3Blue1Brown video on matrices as linear transformations](https://www.youtube.com/watch?v=kYB8IZa5AuE)
 
 Jul 4
