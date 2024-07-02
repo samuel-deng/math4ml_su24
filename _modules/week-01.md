@@ -7,17 +7,18 @@ Jun 26
 
 Jul 1
 : [Lecture: Vectors, matrices, and least squares]({{ site.baseurl }}/assets/slides/1.1_linalgandols.pdf)
-  : [MML 2.1 - 2.8, 3.1 - 3.3](https://mml-book.github.io/book/mml-book.pdf), [VMLS 1.1-1.5, 2.1-2.3, 3.1-3.4, 5.1, 5.2, 6.1-6.4, 12.1-12.4](https://web.stanford.edu/~boyd/vmls/vmls.pdf), [Regression (d=2)]({{ site.baseurl }}/assets/figs/2d_regression.html)
+  : [MML 2.1 - 2.8, 3.1 - 3.3](https://mml-book.github.io/book/mml-book.pdf), [VMLS 1.1-1.5, 2.1-2.3, 3.1-3.4, 5.1, 5.2, 6.1-6.4, 12.1-12.4](https://web.stanford.edu/~boyd/vmls/vmls.pdf), [Regression (d=2)]({{ site.baseurl }}/assets/figs/2d_regression.html), 
 
 Jul 3
 : Lecture: Subspaces, bases, and orthogonality
-  : [MML 2.1 - 2.8, 3.1 - 3.3](https://mml-book.github.io/book/mml-book.pdf), [VMLS 1.1-1.5, 2.1-2.3, 3.1-3.4, 5.1, 5.2, 6.1-6.4, 12.1-12.4](https://web.stanford.edu/~boyd/vmls/vmls.pdf), [Regression (d=2)]({{ site.baseurl }}/assets/figs/2d_regression.html)
+  : [MML 2.1 - 2.8, 3.1 - 3.3](https://mml-book.github.io/book/mml-book.pdf), [VMLS 1.1-1.5, 2.1-2.3, 3.1-3.4, 5.1, 5.2, 6.1-6.4, 12.1-12.4](https://web.stanford.edu/~boyd/vmls/vmls.pdf), [Alternate basis]({{ site.baseurl }}/assets/figs/basis.html), [3Blue1Brown video on bases](https://www.youtube.com/watch?v=k7RM-ot2NWY), [3Blue1Brown video on matrices as linear transformations](https://www.youtube.com/watch?v=kYB8IZa5AuE)
 
 Jul 4
 : **DUE**{: .label .label-blue } **PS 0 due**
 
 LS (Story thus far)
-: [Least squares regression can be solved geometrically with the Pythagorean Theorem.]({{ site.baseurl }}/story_ls/ls1_1.html)
+: Lecture 1.1: [Least squares regression can be solved geometrically with the Pythagorean Theorem.]({{ site.baseurl }}/story_ls/ls1_1.html)
+: Lecture 1.2: [Least squares regression has a simpler solution with orthonormal bases.]({{ site.baseurl }}/story_ls/ls1_2.html)
 
 GD (Story thus far)
-: [Gradient descent with a "bowl-shaped" function gets us to the minimum.]({{ site.baseurl }}/story_gd/gd1_1.html)
+: Lecture 1.1, 1.2: [Gradient descent with a "bowl-shaped" function gets us to the minimum.]({{ site.baseurl }}/story_gd/gd1_1.html)

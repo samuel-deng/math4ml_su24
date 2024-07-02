@@ -55,6 +55,9 @@ know of any additional resources that you think would be helpful for the class, 
 
 In general, Googling an issue you're having with LaTeX usually provides a plethora of solutions.
 
+### Python
+- [Whirlwind Tour of Python](https://github.com/jakevdp/WhirlwindTourOfPython) should have most everything you need to get up to speed with the programming required in this course.
+
 ### Linear Algebra Prerequisites
 If you need to refresh any linear algebra, these may be good resources.
 
