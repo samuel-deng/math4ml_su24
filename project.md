@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Paper Reading Project
+title: Project
 description: This is the page for the course project.
 ---
-{: .no_toc .text-delta }
-
 # Paper Reading Project
 {: .no_toc }
 
