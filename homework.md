@@ -34,12 +34,12 @@ If you're using the template, download `ps#_template.zip` from [Course Content](
 working on Overleaf, you can work from this template by clicking `New Project` then `Upload Project`. Your answers will
 go in the `pset.tex` file. You should put your name and UNI where indicated in the `.tex` file, as well as the names
 and UNIs of your collaborators, if you had any. Per the [Syllabus]({{ site.baseurl }}{% link syllabus.md %}), you may
-collaborate with up two other students.
+collaborate with up two other students. Although collaboration is encouraged, when it comes to writing up your submission,
+*you must write up the solutions yourself, in your own words*, away from your group members. If any submission is found
+in violation of this policy, that will be counted as an instance of academic misconduct.
 
-If you're working with a group:
-
-- Only one group member should submit the PDF, and that group member must specify who the other group members are upon submission in Gradescope. There will be an option to do so in Gradescope.
-- Make sure all group members' names and UNIs are indicated on the first page of your submitted PDF.
+If you're working with a group, make sure all group members' names and UNIs are indicated on the first page of your submitted PDF.
+Each group member should make a separate submission.
 
 In the Gradescope submission system, for each problem, you will need to "select pages" in the files you have uploaded that
 contain your answer for that problem. (If there are multiple pages for a single problem, make sure to select them all!)
@@ -57,8 +57,7 @@ There will be cells of the notebook that say `### YOUR CODE HERE ###`. You shoul
 
 The same collaborator policy applies to the programming parts. If you are working in a group:
 
-- Only one group member should submit the notebook, and that group member must specify who the other group members are upon submission in Gradescope. There will be an option to do so in Gradescope.
-- Under *Collaborator(s)* in the first text cell of the notebook, include the names and UNIs of your group members.
+Under *Collaborator(s)* in the first text cell of the notebook, include the names and UNIs of your group members.
 
 These programming assignments have all been tested using [Google Colab](https://colab.research.google.com/), our online
 platform of choice for working with these Python notebooks. Because of that, it is recommended that you also use Colab 
