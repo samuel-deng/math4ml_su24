@@ -173,6 +173,11 @@ Learning is best done in collaboration with peers. To this end, you will be allo
 
 For the final project, only individual work is allowed. The final project is meant to track your own individual growth in mathematical maturity (which may have improved from collaborating with other students!), so you should aim to do all parts of it yourself.
 
+## Auditor Policy
+Auditors are welcome to join the class for now -- just email me and I'll set you up with the course resources. 
+
+If you're auditing this class, you're more than welcome to come to all lectures, come to any office hours, and ask questions on Ed. You're also more than welcome to submit feedback about the course at any time on the website. The only thing that won't be available to you is grading -- we will **not** be able to grade your problem sets (although you should attempt them to learn the material!). Please do not submit your problem sets to Gradescope.
+
 ## Course Philosophy and Feedback
 The goal of this course is to reinforce and deepen important mathematical fundamentals, gain better intuition of these mathematical tools, and develop confidence in mathematical maturity. All of these require work that may sometimes seem daunting, but I believe that any student is capable of growing in the course, so long as they continually grapple with the concepts and do the work. This may, at times, be difficult, but struggle is a totally normal part of the process. I was in your shoes, at one point (and still am!), and I can assure you that many of these concepts seem really difficult until they inevitably, after plugging away for a while, become natural. I hope you, the student, come away with this feeling as well.
 
