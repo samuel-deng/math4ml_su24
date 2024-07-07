@@ -12,8 +12,8 @@ Jul 10
 Jul 11
 : **DUE**{: .label .label-blue } **PS 1 due**
 
-Connections to LS
+LS (Story thus far)
 : Lecture 2.1: [The problem of least squares regression is unified under the pseudoinverse.]({{ site.baseurl }}/story_ls/ls2_1.html)
 
-Connections to GD
+GD (Story thus far)
 : Lecture 2.1 (nothing new): [Gradient descent with a "bowl-shaped" function gets us to the minimum.]({{ site.baseurl }}/story_gd/gd1_1.html)

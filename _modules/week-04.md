@@ -7,8 +7,8 @@ Jul 22
 Jul 24
 : Lecture: Convexity and convex optimization (recorded or Zoom)
 
-Connections to LS
+LS (Story thus far)
 : *To be updated!*
 
-Connections to GD
+GD (Story thus far)
 : *To be updated!*

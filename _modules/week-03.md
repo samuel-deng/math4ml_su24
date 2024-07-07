@@ -7,8 +7,8 @@ Jul 15
 Jul 17
 : Lecture: Taylor Series and linearization
 
-Connections to LS
+LS (Story thus far)
 : *To be updated!*
 
-Connections to GD
+GD (Story thus far)
 : *To be updated!*

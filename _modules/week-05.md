@@ -7,8 +7,8 @@ Jul 29
 Jul 31
 : Lecture: Basic distributions, bias, and variance
 
-Connections to LS
+LS (Story thus far)
 : *To be updated!*
 
-Connections to GD
+GD (Story thus far)
 : *To be updated!*
