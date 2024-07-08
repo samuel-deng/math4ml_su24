@@ -18,7 +18,7 @@ eye view of the course's main ideas, definitions, and results.
 
 ---
 
-## Lecture 1 (Mon July 1, 2024)
+## Lecture 1.1 (Mon July 1, 2024)
 - **Definition (vector).**
   - "vector-vector multiplication."
     - **Definition (dot product/Euclidean inner product).**
@@ -56,7 +56,7 @@ eye view of the course's main ideas, definitions, and results.
 - **Story 2: gradient descent**
   - The *sum of squared residuals* looks like a "bowl."
 
-## Lecture 2 (Wed July 3, 2024)
+## Lecture 1.2 (Wed July 3, 2024)
 - *Note:* to fit an intercept, add a "dummy" dimension of all 1's to go from d to d+1.
 - **Definition (subspace).** 
 - **Definition (basis).**
@@ -89,3 +89,29 @@ eye view of the course's main ideas, definitions, and results.
   - When we have an orthonormal basis, we get a much simpler solution to OLS.
 - **Story 2: gradient descent**
   - Nothing new: the *sum of squared residuals* looks like a "bowl."
+
+## Lecture 2.1 (Mon July 8, 2024)
+- **Definition (orthogonal complement).**
+- **Properties (projection matrices).**
+  - **Prop (Orthogonal decomposition).**
+  - **Prop (Projection and orthogonal complement matrices)**
+  - **Prop (Projecting twice doesn't do anything).**
+  - **Prop (Projections are symmetric).**
+  - **Prop (1D Projection formula).**
+  - Proofs left as exercises -- ask Sam if you can't figure one of them out.
+- **Problem: best-fitting 1D subspace.**
+  - Use all the properties of projection matrices to get the final form.
+  - Final form gives 1st singular vector and singular value.
+- **Definition (Full SVD).**
+  - **Definition (left singular vectors).** Give a basis for the columnspace.
+  - **Definition (right singular vectors).** Give a basis for the rowspace (columnspace of X transpose).
+  - **Definition (singular values).** Exactly *r* (rank of X) positive singular values.
+- **Definition (Compact SVD).**
+- **Theorem (rank-k approximation).**
+  - "chop off" the SVD at k << r to get an approximation of a matrix.
+- **Definition (pseudoinverse).**
+  - "generalization" of the inverse using the SVD.
+- **Theorem (OLS with pseudoinverse).**
+  - Use the pseudoinverse as if it were the actual inverse to get the OLS solution, w
+- **Theorem (minimum norm solution).**
+  - Using the pseudoinverse gives us the minimum norm solution when d > n and rank(X) = n (infinitely many exact solutions).
