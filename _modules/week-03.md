@@ -7,6 +7,9 @@ Jul 15
 Jul 17
 : Lecture: Taylor Series and linearization
 
+Jul 18
+: **DUE**{: .label .label-blue } **PS 2 due**
+
 LS (Story thus far)
 : *To be updated!*
 
