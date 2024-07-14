@@ -2,7 +2,8 @@
 title: Calculus and Optimization I (differentiation and Taylor Series)
 ---
 Jul 15
-: Lecture: Vector and matrix differential calculus
+: Lecture: Differentiation and vector calculus
+    : ["Peaks" Function]({{ site.baseurl }}/assets/figs/localglobal3d.html)
 
 Jul 17
 : Lecture: Taylor Series and linearization
