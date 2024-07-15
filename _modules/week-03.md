@@ -2,8 +2,9 @@
 title: Calculus and Optimization I (differentiation and Taylor Series)
 ---
 Jul 15
-: Lecture: Differentiation and vector calculus
-    : ["Peaks" Function]({{ site.baseurl }}/assets/figs/localglobal3d.html)
+: [Lecture: Differentiation and vector calculus]({{ site.baseurl }}/assets/slides/3.1_derivatives.pdf)
+    : ["Peaks" Function]({{ site.baseurl }}/assets/figs/localglobal3d.html), [Derivative Ex. 1]({{ site.baseurl }}/assets/figs/partial1.html),
+    [Derivative Ex. 2]({{ site.baseurl }}/assets/figs/partial2.html), [Derivative Ex. 3]({{ site.baseurl }}/assets/figs/partial3.html)
 
 Jul 17
 : Lecture: Taylor Series and linearization
