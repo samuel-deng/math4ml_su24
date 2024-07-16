@@ -115,3 +115,58 @@ eye view of the course's main ideas, definitions, and results.
   - Use the pseudoinverse as if it were the actual inverse to get the OLS solution, w
 - **Theorem (minimum norm solution).**
   - Using the pseudoinverse gives us the minimum norm solution when d > n and rank(X) = n (infinitely many exact solutions).
+- **Story 1: least squares regression**
+  - The pseudoinverse unified all situations where we want a least squares solution (when d > n or n > d).
+- **Story 2: gradient descent**
+  - Nothing new: the *sum of squared residuals* looks like a "bowl."
+
+## Lecture 2.2 (Wed July 10, 2024)
+- **Definition (eigenvector).**
+- **Definition (eigenvalue).**
+- **Prop (Eigendecomposition of diagonalizable matrices).**
+  - When are matrices diagonalizable?
+  - Connection with the SVD.
+- **Definition (Positive Semidefinite Matrices).**
+  - Three definitions
+    - All eigenvalues are nonnegative.
+    - Associated quadratic form is nonnegative.
+    - Can be "factored" into X^T X
+- **Theorem (Spectral Theorem).** All symmetric matrices are diagonalizable.
+- Application of eigenvectors/eigenvalues: PCA (principal components analysis).
+- Quick analysis of errors in least squares with eigenvectors/eigenvalues.
+- **Definition (Quadratic Forms).** Closely related to symmetric matrices.
+  - Three possibilities
+    - Positive definite
+    - Positive semidefinite
+    - Indefinite
+- **Story 1: least squares regression**
+  - Eigenvalues/eigenvectors allow us to analyze the errors in least squares regression.
+- **Story 2: gradient descent**
+  - Positive semidefinite and positive definite quadratic forms seem ripe for gradient descent.
+
+## Lecture 3.1 (Mon July 16, 2024)
+- **Definition (difference quotient).**
+- **Definition (single-variable derivative).**
+- Main idea: differential calculus allows us to replace nonlinear functions with linear approximations.
+- **Definition (directional derivative).**
+- **Definition (partial derivative).**
+- **Definition (gradient).** Only for scalar-valued functions.
+- **Definition (Jacobian).** For general vector-valued functions.
+- **Definition (open ball/neighborhood).** The points local to a point.
+- **Definition (total derivative/differentiable).** Notion of a multivariable derivative.
+- **Definition (smoothness).** Continuously differentiable, the class C^1.
+- **Theorem (Sufficient criterion for differentiability).** 
+  - If a function is smooth, then it is differentiable and its derivative *is* its Jacobian/gradient.
+- **Theorem (directional derivatives from total derivative).**
+  - If a function is differentiable, we can get all directional derivatives from matrix-vector product with derivative.
+- Big picture: if a function is smooth, then its derivative is its Jacobian/gradient (which we get from taking the partial derivatives).
+  - Directional derivatives come from matrix-vector product with the Jacobian/gradient.
+  - We'll primarily concern ourselves with smooth functions.
+- **Definition (Hessian).**
+- **Theorem (equality of mixed partials).** All C^2 functions have symmetric Hessians.
+- **Theorem (OLS from optimization).**
+- **Algorithm (gradient descent).**
+- **Story 1: least squares regression**
+  - We can obtain the same OLS theorem using only the tools of optimization/calculus.
+- **Story 2: gradient descent**
+  - We can now properly write out the algorithm for gradient descent now that we know what a gradient is.

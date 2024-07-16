@@ -9,11 +9,8 @@ Jul 15
 Jul 17
 : Lecture: Taylor Series and linearization
 
-Jul 18
-: **DUE**{: .label .label-blue } **PS 2 due**
-
 LS (Story thus far)
-: *To be updated!*
+: Lecture 3.1: We can derive the exact same OLS theorem from linear algebra section from just the tools of optimization and viewing the notion of [least squares error as an "objective function."]({{ site.baseurl }}/assets/figs/pd_ls.html)
 
 GD (Story thus far)
-: *To be updated!*
+: Lecture 3.1: We can now write down the *algorithm* for gradient descent. Intuitively, [positive semidefinite]({{ site.baseurl }}/assets/figs/psd_gd.html) or [positive definite]({{ site.baseurl }}/assets/figs/pd_gd.html) quadratic forms seem good for gradient descent.

@@ -13,7 +13,7 @@ refer to the source for the problem set. If additional files are needed, that wi
 
 Problem sets will be made available in [Course Content]({{ site.baseurl }}{% link content.md %}) and announced on Ed. Per
 the [Syllabus]({{ site.baseurl }}{% link syllabus.md %}), each student has 6 late days total throughout the summer session,
-and **no homework will be accepted after 11:59 PM ET on the Sunday after the initial due date** (3 late days' time).
+and **no homework will be accepted after 11:59 PM ET three late days after the initial due date**.
 
 ## Written Part
 For all the written homework problems, **typesetting in LaTeX is required** (see [Syllabus]({{ site.baseurl }}{% link syllabus.md %})
