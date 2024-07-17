@@ -7,8 +7,8 @@ Jul 15
     [Derivative Ex. 2]({{ site.baseurl }}/assets/figs/partial2.html), [Derivative Ex. 3]({{ site.baseurl }}/assets/figs/partial3.html), [MML 5.1 - 5.5](https://mml-book.github.io/book/mml-book.pdf), [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf)
 
 Jul 17
-: Lecture: Taylor Series and linearization
-    : [GD Example 1 (big eta)]({{ site.baseurl }}/assets/figs/3.2/gd1_etabig.html), [GD Example 1 (small eta)]({{ site.baseurl }}/assets/figs/3.2/gd1_etasmall.html), [GD Example 2 (big eta)]({{ site.baseurl }}/assets/figs/3.2/gd2_etabig.html), [GD Example 2 (small eta)]({{ site.baseurl }}/assets/figs/3.2/gd2_etasmall.html), [Linearization in 3D]({{ site.baseurl }}/assets/figs/3.2/linearization3d.html), [Polynomial 1]({{ site.baseurl }}/assets/figs/3.2/poly3d1.html), [Polynomial 2]({{ site.baseurl }}/assets/figs/3.2/poly3d2.html), [Smooth function]({{ site.baseurl }}/assets/figs/3.2/smooth1.html)
+: [Lecture: Taylor Series, Linearization, and Gradient Descent]({{ site.baseurl }}/assets/slides/3.2_taylor.pdf)
+    : [GD Example 1 (big eta)]({{ site.baseurl }}/assets/figs/3.2/gd1_etabig.html), [GD Example 1 (small eta)]({{ site.baseurl }}/assets/figs/3.2/gd1_etasmall.html), [GD Example 2 (big eta)]({{ site.baseurl }}/assets/figs/3.2/gd2_etabig.html), [GD Example 2 (small eta)]({{ site.baseurl }}/assets/figs/3.2/gd2_etasmall.html), [Linearization in 3D]({{ site.baseurl }}/assets/figs/3.2/linearization3d.html), [Polynomial 1]({{ site.baseurl }}/assets/figs/3.2/poly3d1.html), [Polynomial 2]({{ site.baseurl }}/assets/figs/3.2/poly3d2.html), [Beta-smooth function]({{ site.baseurl }}/assets/figs/3.2/smooth1.html)
 
 LS (Story thus far)
 : Lecture 3.1: We can derive the exact same OLS theorem from linear algebra section from just the tools of optimization and viewing the notion of [least squares error as an "objective function."]({{ site.baseurl }}/assets/figs/pd_ls.html)
