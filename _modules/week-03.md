@@ -8,6 +8,7 @@ Jul 15
 
 Jul 17
 : Lecture: Taylor Series and linearization
+    : [GD Example 1 (big eta)]({{ site.baseurl }}/assets/figs/3.2/gd1_etabig.html), [GD Example 1 (small eta)]({{ site.baseurl }}/assets/figs/3.2/gd1_etasmall.html), [GD Example 2 (big eta)]({{ site.baseurl }}/assets/figs/3.2/gd2_etabig.html), [GD Example 2 (small eta)]({{ site.baseurl }}/assets/figs/3.2/gd2_etasmall.html), [Linearization in 3D]({{ site.baseurl }}/assets/figs/3.2/linearization3d.html), [Polynomial 1]({{ site.baseurl }}/assets/figs/3.2/poly3d1.html), [Polynomial 2]({{ site.baseurl }}/assets/figs/3.2/poly3d2.html), [Smooth function]({{ site.baseurl }}/assets/figs/3.2/smooth1.html)
 
 LS (Story thus far)
 : Lecture 3.1: We can derive the exact same OLS theorem from linear algebra section from just the tools of optimization and viewing the notion of [least squares error as an "objective function."]({{ site.baseurl }}/assets/figs/pd_ls.html)
