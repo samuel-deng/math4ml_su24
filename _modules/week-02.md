@@ -7,7 +7,7 @@ Jul 8
 : **DUE**{: .label .label-blue } **Project first evaluation due**
 
 Jul 9
-: [PS 2]({{ site.baseurl }}/assets/files/ps2.pdf) released, due July 18, 11:59 PM ET
+: [PS 2]({{ site.baseurl }}/assets/files/ps2.pdf) released, due July 22 11:59 PM ET (*updated from July 18, 11:59 PM ET*)
   : [ps2.pdf]({{ site.baseurl }}/assets/files/ps2.pdf), [ps2_template.zip]({{ site.baseurl }}/assets/files/ps2_template.zip), [ps2.ipynb]({{ site.baseurl }}/assets/files/ps2.ipynb), [ps2_tex.zip]({{ site.baseurl }}/assets/files/ps2_tex.zip)
 
 Jul 10
