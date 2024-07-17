@@ -144,7 +144,7 @@ eye view of the course's main ideas, definitions, and results.
 - **Story 2: gradient descent**
   - Positive semidefinite and positive definite quadratic forms seem ripe for gradient descent.
 
-## Lecture 3.1 (Mon July 16, 2024)
+## Lecture 3.1 (Mon July 15, 2024)
 - **Definition (difference quotient).**
 - **Definition (single-variable derivative).**
 - Main idea: differential calculus allows us to replace nonlinear functions with linear approximations.
@@ -170,3 +170,30 @@ eye view of the course's main ideas, definitions, and results.
   - We can obtain the same OLS theorem using only the tools of optimization/calculus.
 - **Story 2: gradient descent**
   - We can now properly write out the algorithm for gradient descent now that we know what a gradient is.
+
+## Lecture 3.2 (Wed July 17, 2024)
+- **Definition (first-order approximation/linearization).**
+- **Definition (polynomial).**
+- **Definition (Taylor Series).** Defined at a point, x_0.
+  - *pth order Taylor approximation*
+    - We will mostly concern ourselves with first-order and second-order approximations.
+  - *pth order Taylor polynomial*
+- **Definition (Remainder from Taylor Series).**
+  - The "leftover" after chopping off the Taylor series at some degree.
+- **Theorem (Taylor's Theorem: Peano's Form).**
+  - Quantifying the remainder/error asymptotically.
+- **Theorem (Taylor's Theorem: Lagrange's Form).**
+  - Quantifying the remainder/error exactly.
+- **Algorithm (Gradient Descent).**
+  - Finally defined gradient descent.
+- **Definition (beta-smooth functions/matrices).**
+  - Bound on the maximum eigenvalue.
+- **Theorem (Gradient descent for beta-smooth functions).**
+  - For beta-smooth functions, gradient descent with a small enough step size makes the function value smaller at each iteration.
+  - Ingredients:
+    - Lagrange's form of Taylor's Theorem (1st order approximation).
+    - beta-smooth function definition.
+- **Story 1: least squares regression**
+  - Nothing too new here -- just reviewed obtaining OLS solution via optimization.
+- **Story 2: gradient descent**
+  - Formally wrote the algorithm and gave the first convergence proof of gradient descent for beta-smooth functions.
