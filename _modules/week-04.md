@@ -4,6 +4,7 @@ title: Calculus and Optimization II (optimization and convexity) -- SAM OUT OF T
 Jul 22
 : Lecture: Optimization and the Lagrangian (recorded or Zoom)
 : **DUE**{: .label .label-blue } **PS 2 due**
+    : [Constrained least squares (ridge regression)]({{ site.baseurl }}/story_ls/ls4_1.html)
 
 Jul 24
 : Lecture: Convexity and convex optimization (recorded or Zoom)
