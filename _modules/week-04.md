@@ -7,7 +7,7 @@ Jul 22
     : [Constrained least squares (ridge regression)]({{ site.baseurl }}/story_ls/ls4_1.html)
 
 Jul 24
-: Lecture: Convexity and convex optimization (recorded or Zoom)
+: Lecture: Convexity and convex optimization (recording will be in Video Library)
 
 LS (Story thus far)
 : *To be updated!*
