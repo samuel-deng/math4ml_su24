@@ -15,7 +15,7 @@ Jul 18
   : [ps3.pdf]({{ site.baseurl }}/assets/files/ps3.pdf), [ps3_template.zip]({{ site.baseurl }}/assets/files/ps3_template.zip), [ps3.ipynb]({{ site.baseurl }}/assets/files/ps3.ipynb), [ps3_tex.zip]({{ site.baseurl }}/assets/files/ps3_tex.zip)
 
 LS (Story thus far)
-: Lecture 3.1, 3.2gi: We can derive the exact same OLS theorem from linear algebra section from just the tools of optimization and viewing the notion of [least squares error as an "objective function."]({{ site.baseurl }}/assets/figs/pd_ls.html)
+: Lecture 3.1, 3.2: We can derive the exact same OLS theorem from linear algebra section from just the tools of optimization and viewing the notion of [least squares error as an "objective function."]({{ site.baseurl }}/assets/figs/pd_ls.html)
 
 GD (Story thus far)
 : Lecture 3.1: We can now write down the *algorithm* for gradient descent. Intuitively, [positive semidefinite]({{ site.baseurl }}/assets/figs/psd_gd.html) or [positive definite]({{ site.baseurl }}/assets/figs/pd_gd.html) quadratic forms seem good for gradient descent.

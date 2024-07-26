@@ -4,6 +4,9 @@ title: Probability and Statistics II (Maximum likelihood and Gaussian distributi
 Aug 5
 : Lecture: Maximum likelihood estimation, conjugacy, and the Gaussian
 
+Aug 6
+: **DUE**{: .label .label-blue } **PS 4 due**
+
 Aug 7
 : Lecture: Multivariate Gaussian and course overview
 
