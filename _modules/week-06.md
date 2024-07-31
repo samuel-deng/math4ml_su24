@@ -2,7 +2,7 @@
 title: Probability and Statistics II (Maximum likelihood and Gaussian distribution)
 ---
 Aug 5
-: Lecture: Maximum likelihood estimation, conjugacy, and the Gaussian
+: Lecture: The Central Limit Theorem, Maximum Likelihood, and the Gaussian
 
 Aug 6
 : **DUE**{: .label .label-blue } **PS 4 due**
