@@ -9,6 +9,11 @@ Jul 29
 Jul 31
 : [Lecture: Bias, Variance, and Statistical Estimators]({{ site.baseurl }}/assets/slides/5.2_estimation.pdf)
     : [Regression (d = 2) with test point]({{ site.baseurl }}/assets/figs/2d_regression_test.html), [SGD with batch size 1]({{ site.baseurl }}/assets/figs/sgd_batch1.html), [SGD with batch size 10]({{ site.baseurl }}/assets/figs/sgd_batch10.html)
+: [Final paper reading evaluation]({{ site.baseurl }}{% link project.md %}) released. Evaluation due August 12 11:59 PM ET 
+
+Aug 1
+: [PS 5]({{ site.baseurl }}/assets/files/ps5.pdf) released, due Aug 13th, 11:59 PM ET (no programming portion)
+  : [ps5.pdf]({{ site.baseurl }}/assets/files/ps5.pdf), [ps5_template.zip]({{ site.baseurl }}/assets/files/ps5_template.zip), [ps5_tex.zip]({{ site.baseurl }}/assets/files/ps5_tex.zip)
 
 LS (Story thus far)
 : *To be updated!*

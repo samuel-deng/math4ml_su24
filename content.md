@@ -83,5 +83,5 @@ If you need to refresh any probability and statistics, these may be good resourc
 
 - [*Introduction to Probability for Data Science*](https://probability4datascience.com/) by Stanley H. Chan
 - *A First Course in Probability*  by Sheldon Ross.
-- *Introduction to Probability* by Joseph K. Blitzstein and Jessica Hwang.
+- [*Introduction to Probability*](https://drive.google.com/file/d/1VmkAAGOYCTORq1wxSQqy255qLJjTNvBI/edit) by Joseph K. Blitzstein and Jessica Hwang.
 - *Probability and Statistics for Engineers and Scientists* by Ronald E. Wadpole.
