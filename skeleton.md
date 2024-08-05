@@ -197,3 +197,158 @@ eye view of the course's main ideas, definitions, and results.
   - Nothing too new here -- just reviewed obtaining OLS solution via optimization.
 - **Story 2: gradient descent**
   - Formally wrote the algorithm and gave the first convergence proof of gradient descent for beta-smooth functions.
+
+## Lecture 4.1 (Mon July 22, 2024)
+- **Definition (optimization problem)**
+  - **Definition (objective function)**.
+  - **Definition (constraint set)**.
+- **Definition (neighborhood/open ball)**.
+- **Definition (interior point)**.
+- Types of minima:
+  - **Definition (local minimum)**. AKA unconstrained local minimum.
+  - **Definition (constrained local minimum)**
+  - **Definition (global minimum)**.
+- **Theorem (Necessary conditions for unconstrained local minimum).**
+  - First-order condition.
+  - Second-order condition.
+- **Theorem (Sufficient conditions for unconstrained local minimum).**
+  - First-order condition.
+  - Second-order condition.
+- **Definition (Equality constrained optimization).**
+- **Definition (regular point).**
+- **Definition (Lagrangian).**
+- **Theorem (Lagrange Multiplier Theorem).**
+  - Necessary conditions for local minima in equality-constrained optimization.
+- **Definition (inequality constrained optimization).**
+- **Theorem (KKT Theorem).**
+  - **Definition (complementary slackness)**
+- **Definition (Ridge Regression).**
+- **Theorem (Ridge Regression Estimator).**
+- **Story 1: least squares regression**
+  -  In some applications, it may be favorable to regularize the least squares objective by trading off minimizing the objective with the norm of the weights.
+- **Story 2: gradient descent**
+  - Nothing new here (we still can only guarantee *local minima*).
+
+## Lecture 4.2 (Wed July 24, 2024) 
+- **Definition (Convex Optimization Problem).**
+- **Definition (line segment).**
+- **Definition (convex set).**
+  - Example: lines
+  - Example: hyperplane
+  - Example: halfspace
+- **Definition (convex function).**
+  - Example: quadratic forms
+  - Example: affine functions
+  - Example: exponential functions
+- Three characterizations of convex functions.
+  - Original definition (secants always above the graph).
+  - First-order definition (gradient is always under the graph).
+  - Second-order definition (Hessian is PSD).
+- **Theorem (Optimality for convex optimization).**
+  - All local minima are global minima.
+- **Theorem (Convergence of GD for smooth, convex functions).**
+  - Convergence of GD to global minimum.
+- **Theorem (GD applied to OLS).**
+  - Algorithm for OLS.
+  - Verifying OLS is a convex optimization problem.
+- **Story 1: least squares regression**
+  - The least squares objective is a convex function; applying gradient descent takes us to a global minimum.
+- **Story 2: gradient descent**
+  - Applying gradient descent to beta-smooth, convex functions takes us to a global minimum. One such function is the least squares objective.
+
+## Lecture 5.1 (Mon July 29, 2024)
+- **Definition (probability space).**
+  - **Definition (Sample Space).**
+  - **Definition (Event).**
+  - **Definition (Probability Measure).**
+- **Definition (conditional probability).**
+  - Law of total probability
+  - Bayes rule.
+- **Definition (Random Variable).**
+ - **Definition (discrete RVs).**
+ - **Definition (probability mass function).**
+- **Definition (distribution/law of an RV).**
+  - **Definition (Cumulative distribution function CDF).**
+  - **Definition (Probability mass function PMF)** for discrete RVs.
+  - **Definition (Probability density function PDF)** for continuous RVs.
+- **Definition (joint distributions).**
+  - **Definition (marginal distribution).**
+  - **Definition (conditional distribution).**
+- **Definition (independence).**
+  - Independent and identically distributed.
+- Summary statistics of a random variable:
+  - **Definition (expectation).**
+    - Conditional expectation given events.
+    - Conditional expectation given a random variable.
+  - **Definition (variance).**
+  - **Definition (covariance).**
+- **Definition (random vector).**
+  - Expectation of a random vector.
+  - Covariance matrix of a random vector.
+- Regression setup with randomness.
+  - Linear model with mean-zero, independent noise epsilon.
+- **Theorem (statistical properties of OLS).**
+- **Story 1: least squares regression**
+  - Modeled the problem with linear model with random errors. Found that OLS' conditional expectation is the true linear model and its variance scales with the variance of the random errors.
+- **Story 2: gradient descent**
+  - Nothing new here.
+
+## Lecture 5.2 (Wed, July 31, 2024)
+- Statistics vs. probability theory.
+- **Theorem (Weak Law of Large Numbers).**
+  - Ingredients:
+    - **Theorem (Markov's Inequality).**
+    - **Theorem (Chebyshev's Inequality).**
+- **Definition (sample average).**
+- **Definition (statistical estimator).**
+  - Estimand.
+  - Estimator.
+- **Definition (bias of estimators).**
+- **Definition (variance of estimators).**
+- **Definition (Mean squared error).**
+- **Theorem (Bias-variance decomposition).**
+- **Theorem (Statistical properties of OLS).**
+  - With bias and variance.
+- **Algorithm (Stochastic Gradient Descent).**
+  - Single-sample SGD.
+  - Mini-batch SGD.
+- **Theorem (Gauss-Markov Theorem).**
+  - Loewner order.
+- **Theorem (statistical analysis of risk).**
+  - Proof needs **Definition (trace).**
+- **Story 1: least squares regression**
+  - Demonstrated that OLS is the lowest variance *unbiased* linear estimator (Gauss-Markov Theorem). Derived expression for the risk (generalization error) of OLS.
+- **Story 2: gradient descent**
+  - Closed the story of gradient descent by defining *stochastic gradient descent*, where we use unbiased estimators of the gradient instead of the full gradient over all the data. 
+
+## Lecture 6.1 (Mon August 5, 2024)
+- **Definition (Gaussian Distribution).**
+  - Properties:
+    - General to standard.
+    - Standard to general.
+    - Sums of Gaussians.
+- **Theorem (Central Limit Theorem).**
+  - Ingredients:
+    - **Definition (Moment generating function).**
+    - **Definition (Convergence in distribution).**
+- "Named" Discrete Distributions
+  - Point mass distribution.
+  - Discrete uniform distribution.
+  - Bernoulli distribution.
+  - Binomial distribution.
+  - Geometric distribution.
+  - Poisson distribution.
+- "Named" Continuous Distributions
+  - Uniform distribution.
+  - Gaussian distribution.
+  - Chi-squared distribution.
+  - Exponential distribution.
+- **Definition (Maximum likelihood estimation).**
+  - Parameter space, parametric model.
+  - Likelihood function.
+  - Log-likelihood function.
+- **Theorem (OLS and MLE).**
+- **Story 1: least squares regression**
+  - Demonstrated that, under another paradigm for machine learning (maximum likelihood estimation), the OLS estimator corresponds to MLE on the Gaussian error model.
+- **Story 2: gradient descent**
+  - Nothing new here.

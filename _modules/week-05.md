@@ -16,7 +16,9 @@ Aug 1
   : [ps5.pdf]({{ site.baseurl }}/assets/files/ps5.pdf), [ps5_template.zip]({{ site.baseurl }}/assets/files/ps5_template.zip), [ps5_tex.zip]({{ site.baseurl }}/assets/files/ps5_tex.zip)
 
 LS (Story thus far)
-: *To be updated!*
+: Lecture 5.1: Modeled the regression problem with a [linear model with random errors]({{ site.baseurl }}/assets/figs/regression_noise.html). Found that OLS' conditional expectation is the true linear model and its variance scales with the variance of the random errors.
+: Lecture 5.2: OLS is the lowest variance *unbiased* linear estimator (Gauss-Markov Theorem). Derived expression for the risk ([generalization error]({{ site.baseurl }}/assets/figs/2d_regression_test.html)) of OLS.
 
 GD (Story thus far)
-: *To be updated!*
+: Lecture 5.1: Nothing new here.
+: Lecture 5.2: Closed the story of gradient descent by defining [*stochastic gradient descent*]({{ site.baseurl }}/assets/figs/sgd_batch1.html), where we use unbiased estimators of the gradient instead of the full gradient over all the data. 
