@@ -352,3 +352,21 @@ eye view of the course's main ideas, definitions, and results.
   - Demonstrated that, under another paradigm for machine learning (maximum likelihood estimation), the OLS estimator corresponds to MLE on the Gaussian error model.
 - **Story 2: gradient descent**
   - Nothing new here.
+
+## Lecture 6.2 (Wed August 7, 2024)
+- **Definition (Multivariate Gaussian distribution)**
+- **Theorem (Distribution of OLS under Gaussian Errors)**
+- **Theorem (Factorization of MVN)**
+  - Requires: diagonal covariance
+- **Geometry of the MVN**
+  - Shape of MVN comes from the eigendecomposition of the covariance matrix.
+- **Theorem (Nondiagonal MVNs from Linear Transformations).**
+- **Other properties of MVN**
+  - Linear combinations are MVN.
+  - Uncorrelated implies independent.
+  - Marginal distributions are MVN.
+  - Conditional distributions are MVN.
+- **Story 1: Least squares regression**
+  - The distribution of the OLS estimator itself is multivariate normal if we are in the Gaussian error model.
+- **Story 2: gradient descent**
+  - Nothing new here.
