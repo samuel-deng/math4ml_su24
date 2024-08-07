@@ -23,6 +23,4 @@ Aug 13
 
 LS (Story thus far)
 : Lecture 6.1: Under another paradigm for machine learning (maximum likelihood estimation), the [OLS estimator corresponds to MLE on the Gaussian error model]({{ site.baseurl }}/assets/figs/OLS_MLE1.png)
-
-GD (Story thus far)
-: *To be updated!*
+: Lecture 6.2: Under the Gaussian error model, the distribution of the OLS estimator *is* multivariate Gaussian.
