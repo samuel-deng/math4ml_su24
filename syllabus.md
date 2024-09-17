@@ -8,7 +8,7 @@ nav_order: 2
 
 # Syllabus
 {:.no_toc}
-This page contains the most updated syllabus for the course.
+This page contains the most updated syllabus for the course for the Summer B session of 2024.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -20,11 +20,11 @@ This page contains the most updated syllabus for the course.
 
 ## What is this course?
 
-This is a topics course meant to strengthen the mathematical fundamentals for students wishing to pursue further study in machine learning. The serious study of machine learning requires a student to be proficient in several prerequisite subjects: (i) linear algebra, (ii) multivariable calculus, and (iii) probability and statistics. This course assumes that the student has already taken courses in these subjects at the undergraduate level (it is not a replacement), but would like to be more comfortable with their mathematical maturity in any of these areas before approaching a formal course in machine learning at the level of, say, COMS 4771.
+This is a topics course meant to strengthen the mathematical fundamentals for students wishing to pursue further study in machine learning. The serious study of machine learning requires a student to be proficient in several prerequisite subjects: (i) linear algebra, (ii) multivariable calculus, and (iii) probability and statistics. This course assumes that the student has already taken at least a subset of these courses in these subjects at the undergraduate level (it is not a replacement), but would like to be more comfortable with their mathematical maturity in any of these areas before approaching a formal course in machine learning at the level of, say, COMS 4771.
 
-We will not give comprehensive treatment of each of these areas; instead, we will present the main results that are most relevant to the analysis and design of machine learning models. Alongside the theory, we will also motivate each topic with numerous applications and examples relevant to machine learning so they are more familiar when encountered in future study.
+We will not give comprehensive treatment of each of these areas; instead, we will present the main results that are most relevant to the analysis and design of machine learning models. Alongside the theory, we will ground the course around two central ideas in the field of machine learning: least squares regression and gradient descent. These two ideas will motivate most of the material in the course, so students will have a motivated and structured progression of concepts to "hang their hats on."
 
-Topics will include (but are not limited to): span, linear independence, bases, orthogonality, singular value decomposition, eigenvalues and eigenvectors (linear algebra), vector calculus, continuous optimization, convex optimization (calculus and optimization), review of basic probability, exponential families, and multivariate Gaussians (probability and statistics). Machine learning applications will include initial exposures to: principal component analysis, facial recognition, and gradient descent.
+Topics will include (but are not limited to): span, linear independence, bases, orthogonality, singular value decomposition, eigenvalues and eigenvectors (linear algebra), vector calculus, continuous optimization, convex optimization (calculus and optimization), review of basic probability, exponential families, and multivariate Gaussians (probability and statistics). Alongside least squares regression and gradient descent, additional machine learning applications will include initial exposures to: principal component analysis, facial recognition, low-rank approximations, and kernels.
 
 ### Structure of the course
 This is a course with a loose story. The course is structured around two main ideas that underlie modern machine learning: least squares regression and gradient descent. Very informally, least squares regression is a classic way of modeling problems in machine learning (the “what”), and gradient descent is the workhorse algorithm that drives much of modern machine learning (the “how”). Every week, we’ll develop and motivate these two ideas in lecture with the tools and concepts you learn from each part of the course. As the class goes on, you’ll develop different perspectives on these two ideas from, first, what we learn in linear algebra, then calculus and optimization, and, finally, probability and statistics. The hope is that, by the end of the course, you’ll have a deep understanding of both these ideas in ML while also having two concrete “applications” to motivate all the abstract mathematical tools and concepts you learn in the course.
@@ -47,18 +47,32 @@ This is a course with a loose story. The course is structured around two main id
 This course is not meant to be a replacement for the undergraduate level courses that are already prerequisites to machine learning:
 - Multivariable calculus at an undergraduate level (e.g., Math 1201, Math 1205).
 - Linear algebra at an undergraduate level (e.g., Math 2010, COMS 3251).
-- Probability theory (with calculus) at an undergraduate level (e.g., Math 2015, Math 1201). 
+- Probability theory (with calculus) at an undergraduate level (e.g., Stats 2015, Stats 1201). 
 - Discrete mathematics at an undergraduate level (e.g., COMS 3203).
 
 Instead, this course assumes familiarity with the above prerequisites and our main goal will be to focus on building up to advanced topics, techniques, and applications from the above subjects that may have been glossed over in an introductory course that will be useful in further study of machine learning. That being said, we *do not* assume that you are an expert in any of the above prerequisites to take this course; we hope that the additional practice you receive in this course gets you a little closer to that.
 
 This course will also integrate some basic numerical Python programming to allow students to get comfortable with numerical computing packages such as `numpy` and `pandas` before using them more intensively in a future machine learning course. Because of this, we *recommend* previous exposure to basic Python programming, but this is not strictly required if you are willing to learn the basics as the course progresses. Previous exposure to programming (possibly in a different language) should be sufficient for this. The required programming for this course will be relatively light.
 
+### Formal Prerequisites
+**Required prerequisites:** These are *hard* prerequisites for the course:
+- Linear Algebra, at the undergraduate level (e.g. Math 2010, COMS 3251).
+- Discrete mathematics at the undergraduate level (e.g., COMS 3203).
+  - Should have covered proofs and at least discrete probability up to random variables andd joint distributions (COMS 3203 does this).
+- Single-variable calculus at the undergraduate level.
+- Some programming course at the introductory level.
+
+The above courses are strictly required to take this course.
+
+**Suggested prerequisites:** These are the *soft* prerequisites for the course. These courses are not strictly required, but anticipate needing to engage in some self study if you haven't taken the following courses before:
+- Multi-variable calculus at an undergraduate level (e.g. Math 1201, Math 1205).
+- A full course on Probability and statistics at an undergraduate level (e.g. Stats 2015, Stats 1201).
+
 If you are unsure if you meet the prerequisites above, please email the instructor.
 
 ## Resources and Links
 
-There will be no official textbook for this course, but we will (very) roughly follow some of the topics and applications from the textbook *Mathematics for Machine Learning* by Marc Peter Deisenroth, A. Aldo Faisal, and Chen Soon Ong. All slides will be published before each lecture in [Course Content]({{ site.baseurl }}{% link content.md %}) so students can follow along during lecture. Optional readings will occasionally be posted.
+There will be no official textbook for this course, we will sometimes follow some topics and applications from the textbook *Mathematics for Machine Learning* by Marc Peter Deisenroth, A. Aldo Faisal, and Chen Soon Ong, but all of the slides are from scratch. All slides will be published before each lecture in [Course Content]({{ site.baseurl }}{% link content.md %}) so students can follow along during lecture. Optional readings will occasionally be posted. Required readings are "integrated" within the problems sets; all the problem sets will be exposition-proof-exposition style, so you can follow along with the derivation while filling in interesting details yourself.
 
 Though this class assumes that you’ve taken courses in each of the following areas, you may want to brush up. Along with *Mathematics for Machine Learning* by Marc Peter Deisenroth, A. Aldo Faisal, and Chen Soon Ong, here are a few more undergraduate-level resources for the following subjects.
 
@@ -85,7 +99,9 @@ Additional resources can be found in the Resources section of the [Course Conten
 page, to be updated as the class progresses.
 
 ## Assignments and Grading Policy
-This course will be evaluated on the basis of five weekly problem sets and a final project. There are no exams.
+This course will be evaluated on the basis of five weekly problem sets and a final project. For the Summer B session, there are no exams.
+
+In the full course offering, we anticipate three exams for each third of the course (one exam for linear algebra, one exam for calculus and optimization, and one exam for probability theory).
 
 ### Problem Sets
 
@@ -153,20 +169,36 @@ This is a course outline for a six week summer version. Because of the accelerat
 *This is a preliminary outline of the class topics! For an updated outline and corresponding lecture materials, see [Course Content]({{ site.baseurl }}{% link content.md %}).*
 
 ### Linear Algebra
-  - Week 1-1: Introduce the basic machine learning problem: least squares regression. Review of basic linear algebra (vectors, matrices, linear independence, span, and bases).
-  - Week 1-2: Subspaces, orthogonality, norms, projections. Relationship of least squares to projection.
-  - Week 2-1: Singular value decomposition, matrix approximation, pseudoinverse. Perspective on least squares with SVD.
-  - Week 2-2: Eigenvalues, eigenvectors, positive definite/semidefinite matrices, and the spectral theorem. Principal components analysis and facial recognition.
+  - **Week 1-1 (Vectors, matrices, and least squares).** Vectors, matrices, basic linear algebra operations, inverses, rank, linear independence, span.
+    - Least squares: introduce the basic ML problem of least squares regression in matrix-vector notation.
+    - Gradient descent: introduce the "bowl-shaped" functional form of least-squares.
+  - **Week 1-2 (Subspaces, bases, and orthogonality).** Subspaces, bases, inner products, orthogonality, orthogonal bases, and projection.
+    - Least squares: relationship of projection to least squares. Least squares with an orthonormal basis simplifies things.
+  - **Week 2-1 (Singular value decomposition).** Derivation of the singular value decomposition through the best-fitting subspace problem. Rank-k approximation. Pseudoinverse.
+    - Least squares: unify ordinary least squares solution with the tool of the pseudoinverse, a "generalization" of inverses to rectangular matrices.
+  - **Week 2-2 (Eigenthings and positive semidefinite matrices).** Eigendecomposition, eigenvalues, and eigenvectors. Spectral theorem. Relationship to the SVD. Definition of positive semidefinite/positive definite matrices and quadratic forms.
+    - Gradient descent: (non-rigorous) teaser that gradient descent on different quadratic surfaces have different behavior: positive definite, positive semidefinite, and indefinite.
 ### Calculus and Optimization
-  - Week 3-1: Vector calculus (derivatives, gradients, matrix calculus). Least squares as an optimization problem. Introduce the machine learning workhorse: gradient descent.
-  - Week 3-2: Linearization and Taylor series. Proof for the convergence of gradient descent.
-  - Week 4-1: Basics of continuous optimization: constrained optimization and Lagrange multipliers. Least squares with regularization.
-  - Week 4-2: Convex optimization. Solving least squares using gradient descent.
+  - **Week 3-1 (Differentiation and vector calculus).** Single-variable differentiation review. Multivariable differentiation. Total, directional, partial derivatives. Gradient. Hessian.
+    - Least squares: obtain the same least squares theorem from the first lecture, but through the method of optimization and viewing the least squares objective as an "error function."
+    - Gradient descent: armed with the notion of a gradient, we can now write down the basic algorithm for gradient descent.
+  - **Week 3-2 (Taylor Series, Linearization, and Gradient Descent).** Linearization/first-order Taylor approximation. Taylor series. Analytic functions. Smoothness. Second-order Taylor approximation. Taylor's Theorem (Lagrange and Peano's forms). Gradient descent and proof for smooth functions.
+    - Gradient descent: using intuition from Taylor approximations and Taylor's theorem we provide a proof that gradient descent is guaranteed to make function values decrease for smooth functions. This illuminates the dependence of GD on the learning rate.
+  - **Week 4-1 (Optimization and the Lagrangian).** Constrained optimization problem setup. Lagrangian and the method of Lagrange multipliers. Unconstrained optima and local optimization. Equality-constrained optimization. Inequality-constrained optimization. KKT Theorem. Ridge regression and the minimum norm solutions.
+    - Least squares: in some applications, it is favorable to *regularize* the least squares objective by trading off minimizing the objective with the norm of the weights.
+  - **Week 4-2 (Convex optimization).** Convex sets. Convex functions. Different definitions of convex functions for different differentiability classes. "Algebra" (closure properties) of convex sets and functions. Convex optimization problems. Local minima are global minima theorem. Proof that gradient descent converges to global minimum for smooth, convex functions.
+    - Least squares: recognize that the objective for least squares was a ("bowl-shaped") convex function all along. Relationship to positive definite quadratic forms.
+    - Gradient descent: apply gradient descent to least squares, recognizing that we can now formally describe it as a convex, smooth function. Prove that on such functions, gradient descent converges to a global minimum.
 ### Probability and Statistics
-  - Week 5-1: Probability fundamentals (random variables, expected value, variance, law of large numbers, central limit theorem). Stochastic gradient descent.
-  - Week 5-2: Statistics fundamentals (basic distributions, bias, variance, sufficient statistics). Least squares and the Gauss-Markov Theorem.
-  - Week 6-1: Statistics fundamentals continued (conjugacy, exponential family). Gaussian and multivariate Gaussian distribution. Model of Gaussian errors, maximum likelihood estimation and least squares.
-  - Week 6-2: Multivariate Gaussian. Gaussian mixture models and density estimation. Review of course.
+  - **Week 5-1 (Basic probability theory, models, and data)**. Probability spaces and random variables. Distributions, joint, conditional, and marginal distributions of several random variables. CDFs, PMFs, and PDFs. Expectation, variance, and covariance. Conditional expectation. Random vectors. Data as random and the statistical model of machine learning. Modeling assumptions.
+    - Least squares: modeled the familiar regression problem as a linear model with random errors. Prove that OLS' conditional expectation is the true linear model and its variance scales with the variance of the random errors.
+  - **Week 5-2 (Bias, variance, and statistical estimators).** Law of large numbers. Statistical estimators. Bias, variance, and mean squared error of a statistical estimator. Stochastic gradient descent. Gauss-Markov Theorem for OLS. Statistical analysis of the "risk" of OLS.
+    - Least squares: prove the Gauss-Markov theorem, that OLS is the lowest variance, unbiased estimator out of all linear estimators. Derive expression for the risk/generalization error of OLS.
+    - Gradient descent: close our story of gradient descent with stochastic gradient descent, where unbiased estimates of the gradient are used instead of the full gradient over all the data. This makes gradient descent computationally feasible in modern applications.
+  - **Week 6-1 (The Central Limit Theorem, "Named" Distributions, and Maximum Likelihood Estimation).** Gaussian distribution. Central Limit Theorem and proof of CLT through moment generating functions. Named distributions (e.g. uniform, Poisson, Bernoulli, Binomial, etc.). Maximum likelihood estimation (MLE). Connection between MLE and OLS.
+    - Least squares: under the maximum likelihood estimation paradigm of machine learning, the OLS estimator corresponds to MLE on the Gaussian error model.
+  - **Week 6-2 (Multivariate Gaussian and Course Overview).** Multivariate Gaussian PDF. OLS under Gaussian error model and relationship to multivariate Gaussian. Geometry of the multivariate Gaussian. Affine transformation, factorization, and other properties of the multivariate Gaussian. Review of the course, overview of our central "story" of least squares and gradient descent, and how all the math we learned fits in the story.
+    - Least squares: under the Gaussian error model, the distribution of the OLS estimator is itself multivariate Gaussian.
 
 ## Collaboration Policy
 Learning is best done in collaboration with peers. To this end, you will be allowed to collaborate with other students on the problem sets in groups **up to three students (including yourself)**. All collaborators must write the names and UNIs of their group at the top of each problem set (the template will have a space for you to do so). All collaborators must also *type up everything in their own words*. You are free to discuss, whiteboard, and brainstorm with your collaborators. However, when it comes to sitting down and solving the actual problem, you must do it yourself, away from your collaborators. If your homework writeup resembles that of another student in a way which suggests that you have violated the above policy, you may be suspected of academic dishonesty.
